@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f9f8f3;
+    color: #333;
+}
+
+header {
+    background-color: #3b6e3b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+#uploadSection {
+    background-color: #e8f5e9;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+#uploadSection input[type="file"],
+#uploadSection input[type="text"] {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#uploadBtn {
+    padding: 8px 15px;
+    background-color: #3b6e3b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#uploadBtn:hover {
+    background-color: #2e552e;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.photo-card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 220px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.photo-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.photo-card p {
+    padding: 10px;
+    font-size: 0.9em;
+    background-color: #fafafa;
+}
+
+footer {
+    background-color: #3b6e3b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
